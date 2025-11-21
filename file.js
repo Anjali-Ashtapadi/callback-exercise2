@@ -43,11 +43,9 @@ let product_price_list = {pen: 20,notebook: 50,pencil: 10,eraser: 5};
       const qtyStr = quantity.value.trim();
       if (qtyStr === "") {
         alert('Please enter quantity of item');
-        resetAll();
         return;
       }else if (quantity.value <=0){
         alert(`Item Quantity be atleast 1`);
-        resetAll();
         return;
       }else{
       let productName = select.value;
